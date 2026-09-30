@@ -98,3 +98,4 @@ C:\Users\fredr\salt\precourse\dotnet-trainingGround\TrainingGround.Tests\obj\Deb
 C:\Users\fredr\salt\precourse\dotnet-trainingGround\TrainingGround.Tests\obj\Debug\net10.0\TrainingGround.Tests.pdb
 C:\Users\fredr\salt\precourse\dotnet-trainingGround\TrainingGround.Tests\obj\Debug\net10.0\TrainingGround.Tests.genruntimeconfig.cache
 C:\Users\fredr\salt\precourse\dotnet-trainingGround\TrainingGround.Tests\obj\Debug\net10.0\ref\TrainingGround.Tests.dll
+C:\Users\fredr\salt\precourse\dotnet-trainingGround\TrainingGround.Tests\obj\Debug\net10.0\TrainingGround.Tests.sourcelink.json
