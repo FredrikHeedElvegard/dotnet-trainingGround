@@ -2,7 +2,7 @@ using System.Reflection.Metadata.Ecma335;
 
 public class Person
 {
-    public class Person(){}
+    public Person(){}
     public Person(string name)
     {
         this.Name = name;
