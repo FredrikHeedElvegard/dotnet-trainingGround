@@ -8,15 +8,7 @@ public class Person
         this.Name = name;
     }
 
-    string testingMerge = "hhh";
-
-    private string _name;
-    public string Name {get=> _name ; set
-        {
-            if(value.Length > 5)
-            _name= value;
-        }
-    }
+    public string? Name {get;private set;}
     
     public int Birthyear;
     public double LengthInMeters;
