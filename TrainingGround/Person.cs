@@ -8,9 +8,15 @@ public class Person
         this.Name = name;
     }
 
+
     public string? Name {get;private set;}
     
     public int Birthyear;
     public double LengthInMeters;
+
+    public int GetAge(int currentYear)
+    {
+        return currentYear -Birthyear;
+    }
 }
 
