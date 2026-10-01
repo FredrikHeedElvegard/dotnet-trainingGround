@@ -8,6 +8,8 @@ public class Person
         this.Name = name;
     }
 
+    string testingMerge = "hhh";
+
     private string _name;
     public string Name {get=> _name ; set
         {
