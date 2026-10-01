@@ -13,7 +13,7 @@ public class Person
     public string? Name {get;private set;}
     
     public int Birthyear {get; private set;}
-    public double LengthInMeters;
+    public double LengthInMeters {get; private set;}
 
     public int GetAge(int currentYear)
     {
