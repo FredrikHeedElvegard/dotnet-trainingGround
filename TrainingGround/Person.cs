@@ -7,7 +7,7 @@ public class Person
     {
         Name=name;
         Birthyear=birthYear;
-        lengthInMeters =LengthInMeters;
+        LengthInMeters = lengthInMeters;
     }
 
     public string? Name {get;private set;}
