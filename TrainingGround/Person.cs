@@ -3,12 +3,11 @@ using System.Reflection.Metadata.Ecma335;
 public class Person
 {
     public Person(){}
-    public Person(string name) => Name=name;
-
-    public Person(string name, int birthYear)
+    public Person(string name, int birthYear, double lengthInMeters)
     {
-        Name= name;
+        Name=name;
         Birthyear=birthYear;
+        lengthInMeters =LengthInMeters;
     }
 
     public string? Name {get;private set;}
