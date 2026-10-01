@@ -8,6 +8,7 @@ public class PersonTests
         Assert.NotNull(p);
     }
 
+    [Fact]
     public void ConstructorWithName_CreatesPerson()
     {
         var p =new Person("Fredrik");
@@ -15,4 +16,16 @@ public class PersonTests
         Assert.NotNull(p);
         Assert.Equal("Fredrik", p.Name);
     }
+
+    [Fact]
+    public void  ApersonBornIn1972_Is50_In2022()
+    {
+        var p = new Person();
+        p.Birthyear = 1972;
+
+        var age =p.GetAge(2022);
+
+        Assert.Equal(50, age);
+    }
+
 }
